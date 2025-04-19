@@ -1,0 +1,113 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 30px 10px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .box {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 24px 24px;
+    width: 320px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 19px;
+    color: black;
+    font-size: 22px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 3px;
+    color: black;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 11px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    color: black;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  button:hover {
+    background: navy;
+  }
+  
+  #out {
+    margin-top: 19px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .side {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 24px 16px;
+    width: 320px;
+  }
+  
+  .side h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 16px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  
+  .list {
+    margin-bottom: 19px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .list:last-child {
+    border-bottom: none;
+  }
+  
+  .list h3 {
+    color: blue;
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  
+  .list ul {
+    margin: 0;
+    padding-left: 18px;
+    color: black;
+    font-size: 15.5px;
+  }
+  
